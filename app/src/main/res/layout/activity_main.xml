@@ -9,8 +9,24 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.example.jegge.exercise.MainActivity">
 
-    <TextView
+    <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!" />
+        android:text="Lägg till träningspass"
+        android:id="@+id/AddNewExerciseBtn"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="53dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ny session"
+        android:id="@+id/NewSessionBtn"
+        android:layout_below="@+id/AddNewExerciseBtn"
+        android:layout_marginTop="57dp"
+        android:layout_alignRight="@+id/AddNewExerciseBtn"
+        android:layout_alignEnd="@+id/AddNewExerciseBtn"
+        android:layout_alignLeft="@+id/AddNewExerciseBtn"
+        android:layout_alignStart="@+id/AddNewExerciseBtn" />
 </RelativeLayout>

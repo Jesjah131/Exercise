@@ -5,4 +5,24 @@
         <item>Mage</item>
         <item>Bröst</item>
     </string-array>
+
+    <!-- MainActivity -->
+
+
+
+    <!--  -->
+    <string name="goBack">Tillbaka</string>
+    <string name="manageWorkoutAndExercises">Hantera Pass och Övningar</string>
+    <string name="exercises">Övningar</string>
+    <string name="workouts">Pass</string>
+
+
+
+    <!-- ManageWorkOutAndExercies -->
+    <string name="editExercises">Redigera Övningar</string>
+    <string name="editWorkouts">Redigera Pass</string>
+    <string name="addExercise">Lägg till ny Övning</string>
+    <string name="addWorkout">Lägg till nytt Pass</string>
+
+
 </resources>

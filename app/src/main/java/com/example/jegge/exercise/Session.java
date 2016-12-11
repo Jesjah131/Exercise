@@ -1,5 +1,6 @@
 package com.example.jegge.exercise;
 
+import io.realm.RealmList;
 import io.realm.RealmObject;
 import io.realm.annotations.PrimaryKey;
 
@@ -10,4 +11,23 @@ public class Session extends RealmObject {
     @PrimaryKey
     private long sid;
     private String name;
+    //Many-to-Many
+    public RealmList<Exercise> exercises;
+
+//SID
+    public long getSid(){
+        return sid;
+    }
+
+    public void setSid(long sid){
+        this.sid = sid;
+    }
+//NAME
+    public String getName(){
+        return name;
+    }
+
+    public void setName(String name){
+        this.name = name;
+    }
 }

@@ -16,7 +16,8 @@
             </intent-filter>
         </activity>
         <activity android:name=".SessionActivity" />
-        <activity android:name=".SessionStartedActivity"></activity>
+        <activity android:name=".SessionStartedActivity" />
+        <activity android:name=".ManageWorkoutsAndExercises"></activity>
     </application>
 
 </manifest>

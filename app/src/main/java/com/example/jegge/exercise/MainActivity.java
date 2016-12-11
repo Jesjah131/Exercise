@@ -23,5 +23,17 @@ public class MainActivity extends AppCompatActivity {
             }
 
         });
+
+
+        Button goToManageWorkoutAndExercies = (Button) findViewById(R.id.ButtonForManageWorkoutAndExercies);
+        goToSession.setOnClickListener(new View.OnClickListener(){
+
+            @Override
+            public void onClick(View view){
+                Intent intent = new Intent(MainActivity.this, ManageWorkoutsAndExercises.class);
+                startActivity(intent);
+            }
+
+        });
     }
 }

@@ -7,7 +7,8 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.example.jegge.exercise.MainActivity">
+    tools:context="com.example.jegge.exercise.MainActivity"
+    android:background="@drawable/backgroundimagemain">
 
     <Button
         android:layout_width="wrap_content"
@@ -30,24 +31,14 @@
         android:layout_alignLeft="@+id/AddNewExerciseBtn"
         android:layout_alignStart="@+id/AddNewExerciseBtn" />
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textAppearance="?android:attr/textAppearanceSmall"
-        android:text="Github commit fungerade! xP"
-        android:id="@+id/textView"
-        android:layout_below="@+id/NewSessionBtn"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="70dp" />
-
     <Button
         android:text="Manage workouts and Exercies"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="28dp"
         android:id="@+id/ButtonForManageWorkoutAndExercies"
-        android:layout_below="@+id/textView"
-        android:layout_centerHorizontal="true" />
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/NewSessionBtn" />
 
 
 </RelativeLayout>

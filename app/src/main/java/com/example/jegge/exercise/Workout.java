@@ -10,6 +10,9 @@ public class Workout extends RealmObject {
     @PrimaryKey
     private long wid;
     private String name;
+    private String startTime;
+    private String endTime;
+    private String date;
 
     //WID
     public long getEid(){
@@ -27,4 +30,29 @@ public class Workout extends RealmObject {
     public void setName(String name){
         this.name = name;
     }
+    //STARTTIME
+    public String getStartTime(){
+        return startTime;
+    }
+
+    public void setStartTime(String name){
+        this.startTime = startTime;
+    }
+    //ENDTIME
+    public String getEndTime(){
+        return endTime;
+    }
+
+    public void setEndTime(String endTime){
+        this.endTime = endTime;
+    }
+    //DATE
+    public String getDate(){
+        return date;
+    }
+
+    public void setDate(String date){
+        this.date = date;
+    }
+
 }

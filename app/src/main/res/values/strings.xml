@@ -9,13 +9,11 @@
     <!-- MainActivity -->
 
 
-
     <!--  -->
     <string name="goBack">Tillbaka</string>
     <string name="manageWorkoutAndExercises">Hantera Pass och Övningar</string>
     <string name="exercises">Övningar</string>
     <string name="workouts">Pass</string>
-
 
 
     <!-- ManageWorkOutAndExercies -->

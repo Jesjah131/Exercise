@@ -12,6 +12,7 @@ public class Exercise extends RealmObject {
     private long eid;
     private String name;
     private String description;
+    public RealmList<Workout> workouts;
 
 //EID
     public long getEid(){

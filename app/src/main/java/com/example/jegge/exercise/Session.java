@@ -13,6 +13,7 @@ public class Session extends RealmObject {
     private String name;
     //Many-to-Many
     public RealmList<Exercise> exercises;
+    public RealmList<Workout> workouts;
 
 //SID
     public long getSid(){

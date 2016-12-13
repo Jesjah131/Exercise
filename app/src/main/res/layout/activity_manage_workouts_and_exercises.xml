@@ -17,8 +17,8 @@
         android:layout_marginTop="39dp"
         android:id="@+id/button4"
         android:layout_alignParentTop="true"
-        android:layout_alignLeft="@+id/btnAddWorkout"
-        android:layout_alignStart="@+id/btnAddWorkout" />
+        android:layout_alignLeft="@+id/addWorkout"
+        android:layout_alignStart="@+id/addWorkout" />
 
     <Button
         android:text="@string/goBack"
@@ -44,9 +44,9 @@
         android:layout_height="wrap_content"
         android:id="@+id/workoutTitle"
         android:textSize="20dp"
-        android:layout_above="@+id/btnAddWorkout"
-        android:layout_alignLeft="@+id/btnAddWorkout"
-        android:layout_alignStart="@+id/btnAddWorkout" />
+        android:layout_above="@+id/addWorkout"
+        android:layout_alignLeft="@+id/addWorkout"
+        android:layout_alignStart="@+id/addWorkout" />
 
     <TextView
         android:text="@string/exercises"
@@ -66,15 +66,15 @@
         android:id="@+id/btnEditWorkout"
         android:layout_marginBottom="32dp"
         android:layout_above="@+id/goBackButton"
-        android:layout_alignLeft="@+id/btnAddWorkout"
-        android:layout_alignStart="@+id/btnAddWorkout" />
+        android:layout_alignLeft="@+id/addWorkout"
+        android:layout_alignStart="@+id/addWorkout" />
 
     <Button
         android:text="@string/addWorkout"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="48dp"
-        android:id="@+id/btnAddWorkout"
+        android:id="@+id/addWorkout"
         android:layout_marginLeft="76dp"
         android:layout_marginStart="76dp"
         android:layout_alignBottom="@+id/btnEditWorkout"

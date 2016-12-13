@@ -10,7 +10,7 @@ import io.realm.annotations.PrimaryKey;
  */
 public class Exercise extends RealmObject {
     @PrimaryKey
-    private long eid;
+    private int eid;
     private String name;
     private String description;
    // private int reps;
@@ -19,11 +19,11 @@ public class Exercise extends RealmObject {
     // public RealmList<Category> categories;
 
 //EID
-    public long getEid(){
+    public int getEid(){
         return eid;
     }
 
-    public void setEid(long eid){
+    public void setEid(int eid){
         this.eid = eid;
     }
 //NAME

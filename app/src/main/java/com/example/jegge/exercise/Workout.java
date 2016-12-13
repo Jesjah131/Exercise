@@ -1,5 +1,6 @@
 package com.example.jegge.exercise;
 
+import io.realm.RealmList;
 import io.realm.RealmObject;
 import io.realm.annotations.PrimaryKey;
 
@@ -10,9 +11,10 @@ public class Workout extends RealmObject {
     @PrimaryKey
     private long wid;
     private String name;
-    private String startTime;
-    private String endTime;
-    private String date;
+   // private String startTime;
+   // private String endTime;
+   // private String date;
+    public RealmList<Exercise> exercises;
 
     //WID
     public long getEid(){
@@ -31,7 +33,7 @@ public class Workout extends RealmObject {
         this.name = name;
     }
     //STARTTIME
-    public String getStartTime(){
+    /*public String getStartTime(){
         return startTime;
     }
 
@@ -53,6 +55,6 @@ public class Workout extends RealmObject {
 
     public void setDate(String date){
         this.date = date;
-    }
+    }*/
 
 }

@@ -15,7 +15,6 @@ public class Exercise extends RealmObject {
     private String description;
    // private int reps;
    // private String duration;
-    // public RealmList<Workout> workouts;
     // public RealmList<Category> categories;
 
 //EID

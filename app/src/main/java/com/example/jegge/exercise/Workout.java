@@ -17,11 +17,11 @@ public class Workout extends RealmObject {
     public RealmList<Exercise> exercises;
 
     //WID
-    public long getEid(){
+    public long getWid(){
         return wid;
     }
 
-    public void setEid(long wid){
+    public void setWid(long wid){
         this.wid = wid;
     }
     //NAME

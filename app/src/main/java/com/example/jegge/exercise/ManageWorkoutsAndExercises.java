@@ -35,6 +35,17 @@ public class ManageWorkoutsAndExercises extends AppCompatActivity {
             }
 
         });
+
+        Button manageWorkout = (Button) findViewById(R.id.btnEditWorkout);
+        manageWorkout.setOnClickListener(new View.OnClickListener(){
+
+            @Override
+            public void onClick(View view){
+                Intent intent = new Intent(ManageWorkoutsAndExercises.this, ManageWorkout.class);
+                startActivity(intent);
+            }
+
+        });
     }
 
 

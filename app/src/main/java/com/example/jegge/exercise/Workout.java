@@ -33,13 +33,14 @@ public class Workout extends RealmObject {
         this.name = name;
     }
     //STARTTIME
-    /*public String getStartTime(){
-        return startTime;
+    public RealmList<Exercise> getExercises(){
+        return exercises;
     }
 
-    public void setStartTime(String name){
-        this.startTime = startTime;
+    public void setExercises(RealmList<Exercise> exercises){
+        this.exercises = exercises;
     }
+    /*
     //ENDTIME
     public String getEndTime(){
         return endTime;

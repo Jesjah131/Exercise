@@ -9,7 +9,7 @@
         android:text="Namnge passet"
         android:id="@+id/textView" />
     <EditText
-        android:id="@+id/edittext"
+        android:id="@+id/editTextInputDialog"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:hint="Skriv här..."

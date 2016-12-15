@@ -10,9 +10,15 @@ import android.widget.Button;
 import android.widget.Spinner;
 import android.widget.Toast;
 
+import java.util.ArrayList;
+
+import io.realm.Realm;
+
 public class SessionActivity extends AppCompatActivity {
     Spinner spinner;
+    ArrayList<String> workoutArrayList;
     ArrayAdapter<CharSequence> adapter;
+    Realm realm;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -30,9 +36,15 @@ public class SessionActivity extends AppCompatActivity {
 
         });
 
+        Realm realm = Realm.getDefaultInstance();
         spinner = (Spinner)findViewById(R.id.spinner);
-        adapter = ArrayAdapter.createFromResource(this,R.array.exercise_names,android.R.layout.simple_spinner_item);
+
+        RealmHelper helper = new RealmHelper(realm);
+        workoutArrayList=helper.retrieveWorkouts();
+
+        adapter=new ArrayAdapter(this,android.R.layout.simple_list_item_1,workoutArrayList);
         adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
+
         spinner.setAdapter(adapter);
         spinner.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener(){
               @Override

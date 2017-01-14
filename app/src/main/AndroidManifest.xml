@@ -22,7 +22,8 @@
         <activity android:name=".AddCategory" />
         <activity android:name=".dd" />
         <activity android:name=".AddNewWorkout" />
-        <activity android:name=".ManageWorkout"></activity>
+        <activity android:name=".ManageWorkout" />
+        <activity android:name=".AddExercise"></activity>
     </application>
 
 </manifest>

@@ -1,7 +1,6 @@
 <resources>
     <string name="app_name">Exercise</string>
-    <string-array name="exercise_names">
-    </string-array>
+    <string-array name="exercise_names"></string-array>
 
     <!-- MainActivity -->
 
@@ -11,6 +10,7 @@
     <string name="manageWorkoutAndExercises">Hantera Pass och Övningar</string>
     <string name="exercises">Övningar</string>
     <string name="workouts">Pass</string>
+    <string name="finished">Klart</string>
 
 
     <!-- ManageWorkOutAndExercies -->
@@ -18,6 +18,11 @@
     <string name="editWorkouts">Redigera Pass</string>
     <string name="addExercise">Lägg till ny Övning</string>
     <string name="addWorkout">Lägg till nytt Pass</string>
+
+
+    <!--Add Exercies -->
+    <string name="nameExercies">Namn</string>
+    <string name="addDescriptionToTheExercies">Beskrivning</string>
 
 
 </resources>

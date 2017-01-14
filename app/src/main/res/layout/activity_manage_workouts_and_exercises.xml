@@ -15,7 +15,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="39dp"
-        android:id="@+id/button4"
+        android:id="@+id/buttonForAddingNewExercies"
         android:layout_alignParentTop="true"
         android:layout_alignLeft="@+id/addWorkout"
         android:layout_alignStart="@+id/addWorkout" />
@@ -34,9 +34,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/button"
-        android:layout_below="@+id/button4"
-        android:layout_alignLeft="@+id/button4"
-        android:layout_alignStart="@+id/button4" />
+        android:layout_below="@+id/buttonForAddingNewExercies"
+        android:layout_alignLeft="@+id/buttonForAddingNewExercies"
+        android:layout_alignStart="@+id/buttonForAddingNewExercies" />
 
     <TextView
         android:text="@string/workouts"
@@ -56,8 +56,8 @@
         android:layout_marginTop="13dp"
         android:id="@+id/exercisetitle"
         android:layout_alignParentTop="true"
-        android:layout_alignLeft="@+id/button4"
-        android:layout_alignStart="@+id/button4" />
+        android:layout_alignLeft="@+id/buttonForAddingNewExercies"
+        android:layout_alignStart="@+id/buttonForAddingNewExercies" />
 
     <Button
         android:text="@string/editWorkouts"
